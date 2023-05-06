@@ -16,11 +16,10 @@ footer .card{
 }
 
 footer .card-body{
-height: 50px;  
-text-align: center;
-color: rgba(3, 3, 3, 0.73);
-padding: 100px 0;
-
+/* height: 20px;   */
+/* text-align: center; */
+color: rgb(9, 9, 9);
+/* padding: 80px 80px; */
 }
 
 footer .card-header{
@@ -32,7 +31,7 @@ footer .card-header a{
     color:black;
     border-radius: 0;
     margin: 0 5px;
-    font-size: 25px;
+    font-size: 20px;
 }
 footer .card-header a:hover{
     color:rgba(187, 84, 53, 0.809)
@@ -41,5 +40,11 @@ footer .card-header a:hover{
 footer .card-body a{
     color: rgba(3, 3, 3, 0.73);
     text-decoration: none;
-    
+}
+main .row{ 
+    padding: 0 100px!important;
+
+}
+main h2 {
+    margin: 30px 100px 60px 100px;
 }
