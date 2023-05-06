@@ -1,14 +1,45 @@
 .bg-nav-color{
- background-color:rgb(231, 213, 187);
+ background-color:rgb(228, 218, 205);
 }
 
 .txt-nav-color{
 color: rgb(0, 0, 0);
-
 }
 body{
     margin: 0 !important;
     width: 100vw;
     padding: 0!important;
+}
+footer .card{
+    background-color: rgb(230, 218, 202)!important;
+    border-radius: 0;
+}
 
+footer .card-body{
+height: 50px;  
+text-align: center;
+color: rgba(3, 3, 3, 0.73);
+padding: 100px 0;
+
+}
+
+footer .card-header{
+    background-color: rgb(227, 201, 166)!important
+}
+
+footer .card-header a{
+    text-decoration: none;
+    color:black;
+    border-radius: 0;
+    margin: 0 5px;
+    font-size: 25px;
+}
+footer .card-header a:hover{
+    color:rgba(187, 84, 53, 0.809)
+}
+
+footer .card-body a{
+    color: rgba(3, 3, 3, 0.73);
+    text-decoration: none;
+    
 }
