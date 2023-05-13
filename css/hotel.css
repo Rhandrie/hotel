@@ -1,9 +1,14 @@
+
+
 .bg-nav-color{
  background-color:rgb(228, 218, 205);
+
 }
 
 .txt-nav-color{
 color: rgb(0, 0, 0);
+/* font-family: 'Nunito', sans-serif; */
+font-size: 20PX;
 }
 body{
     margin: 0 !important;
@@ -48,3 +53,92 @@ main .row{
 main h2 {
     margin: 30px 100px 60px 100px;
 }
+
+main h10 p {
+font-size: 30px;
+color: rgb(47, 46, 46);
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.text-body-secondary{
+    color: rgb(47, 46, 46);
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+main h11 p {
+    font-size: 25px;
+    color: rgb(47, 46, 46);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    }
+    
+/* main h12 img {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    /* width: 500px;
+    height: 500px; */
+
+    
+     main h12 {
+        margin-bottom: 50px;
+     }
+
+     main .card-bodyeventos{
+
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px; 
+        padding-bottom: 50px;
+        padding-top: 50px;  
+        margin: 50px 50px 50px 50px;
+        border-radius: none !important;
+        
+     }
+     main .cardeventtos{
+     border-radius: none;
+     text-align: center;
+     padding-left: 30px;
+     padding-right: 30px; 
+     padding-bottom: 30px;
+     padding-top: 30px;  
+     margin: 30px 30px 30px 30px;}
+
+     main .cardeventosala {
+        height: 450px;
+        width: 500px;
+     }
+     main .cardeventosala2{
+
+        border-radius: none!important;
+        text-align: center;
+        height: 450px;
+        width: 450px;
+        text-justify: auto;
+        text-align: center;
+        margin-left: 50px;
+        margin-top: 0px;
+   
+
+     }
+
+ header .img{
+    background-color:rgba(0, 0, 0, 0.596)!important ;
+    height: 550px;
+    color:rgb(255, 255, 255)!important ;
+ }
+ main .cardreservas{
+border: radius 1px!important;
+    padding-left: 30px;
+    padding-right: 30px; 
+    padding-bottom: 30px;
+    padding-top: 30px;  
+    margin: 30px 30px 30px 30px;
+}
+
+
+ 
