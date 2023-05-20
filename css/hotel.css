@@ -140,5 +140,60 @@ border: radius 1px!important;
     margin: 30px 30px 30px 30px;
 }
 
+main table, main table tr, main table tr td, main table th {
+border: 1px solid saddlebrown;
 
+}
  
+main table td{
+    padding: 08px!important; 
+} 
+
+main table th{
+text-align: center;
+}
+main table td h3{
+text-align: center;
+}
+
+main table{
+    margin: 50px auto 50px auto;
+}
+
+main table tr{
+    background-color: rgba(235, 210, 174, 0.735);
+    transition: ease 1s;
+}
+
+main table tr:hover{
+    background-color: rgb(243, 161, 98);
+    cursor:pointer;
+
+}
+.titulotarifas{
+    background-color: rgba(240, 149, 88, 0.67);
+}
+
+main form{
+    margin: 50px auto!important;
+    margin-bottom: 25px!important;
+    padding-bottom: 25px!important;
+    width: 80%!important;
+    padding: 10px!important;
+    border: 1px solid rgba(235, 210, 174, 0.735);
+    }
+
+    main h4{
+        font-size: 35px;
+        margin: 50px;
+    }
+    main form textarea{
+        resize: none;
+        /* bloqueia o aumento da caixa */
+    }
+
+    main form button{
+
+        display: block!important;
+        margin: 20px auto;
+    }

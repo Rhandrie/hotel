@@ -187,39 +187,111 @@
     </header>
      <!-- fim do carrosel -->
     <main>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="cardres">
-            <img src="img/acomodacao12.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <a href="#" class="btn btn btn-dark">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="cardres">
-            <img src="img/acomodacao20.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <a href="#" class="btn btn btn-dark">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="cardres">
-            <img src="img/acomodacao1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn btn-dark">Go somewhere</a>
-            </div>
-          </div>
-        </div>
+    <h4>
+      Faça a sua Reserva:
+    </h4>
 
 
+    
+    <form class="row g-3">
+<!-- <div class="row"> -->
+
+      <div class="col-3">
+        <label for="data-check-in" class="form-label">Data Check-in</label>
+        <input type="date" class="form-control" id="data-check-in">
+      </div>
+      <div class="col-3">
+        <label for="hora-check-in" class="form-label">Hora Check-in</label>
+        <input type="time" class="form-control" id="hora-check-in">
+      </div>
+    <!-- </div>
+    <div class="row"> -->
+
+      <div class="col-3">
+        <label for="data-check-out" class="form-label">Data Check-in</label>
+        <input type="date" class="form-control" id="data-check-out">
+      </div>
+      <div class="col-3">
+        <label for="hora-check-in" class="form-label">Hora Check-in</label>
+        <input type="time" class="form-control" id="hora-check-in">
+      </div>
+    <!-- </div> -->
+
+    <div class="col-5">
+      <label for="Acomodação" class="form-label">Acomodação</label>
+      <select id="Acomodação" class="form-select">
+        <option selected>Selecione</option>
+        <option value="Single">Single</option>
+        <option value="Double">Double</option>
+        <option value="Master">Master</option>
+        <option value="Presidencial">Presidencial</option>
+        </select>
+    </div>
+
+    <div class="col-3">
+      <label for="pagamento" class="form-label">Pagamento</label>
+      <select id="pagamento" class="form-select">
+        <option selected>Selecione</option>
+        <option value="Pix">Pix</option>
+        <option value="Cartão de Débito">Cartão de Débito</option>
+        <option value="Cartão de Credito">Cartão de Credito</option>
+        <option value="Boleto">Boleto</option>
+        </select>
+    </div>
+
+    <div class="col-2">
+      <label for="numero-de-adulto" class="form-label"> Quantidade de Adulto</label>
+      <select id="numero-de-adulto" class="form-select">
+        <option selected>Selecione</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        </select>
+    </div>
+
+    <div class="col-2">
+      <label for="numero-de-kids" class="form-label"> Quantidade de Criança</label>
+      <select id="numero-de-kids" class="form-select">
+        <option selected>Selecione</option>
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        </select>
+    </div>
+
+
+
+
+
+
+      <div class="col-5">
+        <label for="nome-completo" class="form-label"> Nome Completo</label>
+        <input type="text" class="form-control" id="nome-completo" required>
+      </div>
+
+      <div class="col-5">
+        <label for="email" class="form-label"> E-mail</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="col-2">
+        <label for="telefone" class="form-label">Telefone</label>
+        <input type="tel" class="form-control" id="telefone" required>
+      </div>
+
+
+      <div class="col-12">
+      
+        <label for="Observações" class="form-label">Observações</label>
+        <textarea class="form-control" id="Observações" rows="5"></textarea>
+        
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Enviar Solicitação</button>
+      </div>
+    </form>
 
 
 
